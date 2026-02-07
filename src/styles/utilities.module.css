@@ -1,0 +1,201 @@
+/* ======================
+   TEXT COLORS
+   ====================== */
+.textPrimary {
+	color: #3b82f6;
+}
+.textSecondary {
+	color: #6b7280;
+}
+.textDanger {
+	color: #ef4444;
+}
+.textSuccess {
+	color: #10b981;
+}
+.textWarning {
+	color: #f59e0b;
+}
+.textInfo {
+	color: #06b6d4;
+}
+.textGray {
+	color: #6b7280;
+}
+.textDark {
+	color: #111827;
+}
+.textWhite {
+	color: #ffffff;
+}
+
+/* ======================
+   BACKGROUND COLORS
+   ====================== */
+.bgPrimary {
+	background: #3b82f6;
+	color: white;
+}
+.bgSecondary {
+	background: #6b7280;
+	color: white;
+}
+.bgDanger {
+	background: #ef4444;
+	color: white;
+}
+.bgSuccess {
+	background: #10b981;
+	color: white;
+}
+.bgWarning {
+	background: #f59e0b;
+	color: white;
+}
+.bgWhite {
+	background: #ffffff;
+}
+.bgGray50 {
+	background: #f9fafb;
+}
+.bgGray100 {
+	background: #f3f4f6;
+}
+
+/* ======================
+   SPACING - MARGIN
+   ====================== */
+.mt1 {
+	margin-top: 0.25rem;
+}
+.mt2 {
+	margin-top: 0.5rem;
+}
+.mt3 {
+	margin-top: 0.75rem;
+}
+.mt4 {
+	margin-top: 1rem;
+}
+.mt6 {
+	margin-top: 1.5rem;
+}
+.mt8 {
+	margin-top: 2rem;
+}
+
+.mb1 {
+	margin-bottom: 0.25rem;
+}
+.mb2 {
+	margin-bottom: 0.5rem;
+}
+.mb3 {
+	margin-bottom: 0.75rem;
+}
+.mb4 {
+	margin-bottom: 1rem;
+}
+.mb6 {
+	margin-bottom: 1.5rem;
+}
+.mb8 {
+	margin-bottom: 2rem;
+}
+
+/* ======================
+   SPACING - PADDING
+   ====================== */
+.p2 {
+	padding: 0.5rem;
+}
+.p4 {
+	padding: 1rem;
+}
+.p6 {
+	padding: 1.5rem;
+}
+.p8 {
+	padding: 2rem;
+}
+
+/* ======================
+   TYPOGRAPHY
+   ====================== */
+.textSm {
+	font-size: 0.875rem;
+} /* 14px */
+.textBase {
+	font-size: 1rem;
+} /* 16px */
+.textLg {
+	font-size: 1.125rem;
+} /* 18px */
+.textXl {
+	font-size: 1.25rem;
+} /* 20px */
+
+.fontNormal {
+	font-weight: 400;
+}
+.fontMedium {
+	font-weight: 500;
+}
+.fontSemibold {
+	font-weight: 600;
+}
+.fontBold {
+	font-weight: 700;
+}
+
+/* ======================
+   DISPLAY & LAYOUT
+   ====================== */
+.flex {
+	display: flex;
+}
+.inlineFlex {
+	display: inline-flex;
+}
+.grid {
+	display: grid;
+}
+.block {
+	display: block;
+}
+.inlineBlock {
+	display: inline-block;
+}
+
+.itemsCenter {
+	align-items: center;
+}
+.itemsStart {
+	align-items: flex-start;
+}
+.justifyCenter {
+	justify-content: center;
+}
+.justifyBetween {
+	justify-content: space-between;
+}
+
+.gap2 {
+	gap: 0.5rem;
+}
+.gap4 {
+	gap: 1rem;
+}
+.gap6 {
+	gap: 1.5rem;
+}
+
+/* ======================
+   WIDTH
+   ====================== */
+.wFull {
+	width: 100%;
+}
+.wAuto {
+	width: auto;
+}
