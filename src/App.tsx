@@ -1,3 +1,4 @@
+import Alert from './components/Alert/Alert'
 import Badge from './components/Badge/Badge'
 import Button from './components/Button/Button'
 import Card from './components/Card/Card'
@@ -95,6 +96,32 @@ function App() {
 					<Badge variant='warning'>Pending</Badge>
 					<Badge variant='error'>Failed</Badge>
 					<Badge variant='info'>Info</Badge>
+				</div>
+			</section>
+
+			<section className={utils.mb8}>
+				<h2 className={utils.mb4}>Alerts</h2>
+				<div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+					<Alert
+						variant='success'
+						title='Success'
+						description='Your changes have been saved successfully.'
+					/>
+					<Alert
+						variant='warning'
+						title='Warning'
+						description='Please review your information before submitting.'
+					/>
+					<Alert
+						variant='error'
+						title='Error'
+						description='Something went wrong. Please try again.'
+					/>
+					<Alert
+						variant='info'
+						title='Info'
+						description='This feature is currently in beta testing.'
+					/>
 				</div>
 			</section>
 		</div>

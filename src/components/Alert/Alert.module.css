@@ -14,18 +14,29 @@
 
 .warning {
 	background: #fffbeb;
-	border-left: #f59e0b;
+	border-left: 4px solid #f59e0b;
 	color: #92400e;
 }
 
 .error {
 	background: #fef2f2;
-	border-left: #ef4444;
+	border-left: 4px solid #ef4444;
 	color: #991b1b;
 }
 
 .info {
 	background: #eff6ff;
-	border-left: #3b82f6;
+	border-left: 4px solid #3b82f6;
 	color: #1e40af;
+}
+
+.alertTitle {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.alertDescription {
+	font-size: 0.875rem;
+	line-height: 1.5;
 }
