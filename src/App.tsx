@@ -1,5 +1,6 @@
 import Button from './components/Button/Button'
 import Card from './components/Card/Card'
+import Input from './components/Input/Input'
 import utils from './styles/utilities.module.css'
 
 function App() {
@@ -48,6 +49,34 @@ function App() {
 						featured
 					/>
 					<Card title='iPhone 15' description='Latest smartphone technology' />
+				</div>
+			</section>
+
+			<section className={utils.mb8}>
+				<h2 className={utils.mb4}>Inputs</h2>
+				<div
+					style={{
+						display: 'flex',
+						flexDirection: 'column',
+						gap: '1.5rem',
+						maxWidth: '400px',
+					}}
+				>
+					<Input
+						label='Email'
+						placeholder='Enter your email'
+						helperText="We'll never share your email"
+					/>
+
+					<Input
+						label='Password'
+						type='password'
+						placeholder='Enter your password'
+						error
+						errorMessage='Password must be at least 8 characters'
+					/>
+
+					<Input label='Username' placeholder='Choose a username' disabled />
 				</div>
 			</section>
 		</div>
