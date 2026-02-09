@@ -1,0 +1,32 @@
+.badge {
+	display: inline-flex;
+	padding: 4px 12px;
+	border-radius: 4px;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.success {
+	composes: badge;
+	background: #d1fae5;
+	color: #065f46;
+}
+
+.warning {
+	composes: badge;
+	background: #fef3c7;
+	color: #92400e;
+}
+
+.error {
+	composes: badge;
+	background: #fee2e2;
+	color: #991b1b;
+}
+
+.info {
+	composes: badge;
+	background: #dbeafe;
+	color: #1e40af;
+}
