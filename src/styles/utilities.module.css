@@ -119,6 +119,39 @@
 	padding: 2rem;
 }
 
+/* Gap (para flex/grid) */
+.gap2 {
+	gap: 0.5rem;
+}
+.gap4 {
+	gap: 1rem;
+}
+.gap6 {
+	gap: 1.5rem;
+}
+
+/* Display */
+.grid {
+	display: grid;
+}
+.flex {
+	display: flex;
+}
+.flexWrap {
+	flex-wrap: wrap;
+}
+
+/* Max-width (containers) */
+.maxW4xl {
+	max-width: 56rem;
+} /* 896px */
+.maxW6xl {
+	max-width: 72rem;
+} /* 1152px */
+.maxW7xl {
+	max-width: 80rem;
+} /* 1280px */
+
 /* ======================
    TYPOGRAPHY
    ====================== */
