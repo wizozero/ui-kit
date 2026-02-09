@@ -1,3 +1,4 @@
+import Badge from './components/Badge/Badge'
 import Button from './components/Button/Button'
 import Card from './components/Card/Card'
 import Input from './components/Input/Input'
@@ -77,6 +78,23 @@ function App() {
 					/>
 
 					<Input label='Username' placeholder='Choose a username' disabled />
+				</div>
+			</section>
+
+			<section className={utils.mb8}>
+				<h2 className={utils.mb4}>Badges</h2>
+				<div
+					style={{
+						display: 'flex',
+						gap: '1rem',
+						flexWrap: 'wrap',
+						alignItems: 'center',
+					}}
+				>
+					<Badge variant='success'>Active</Badge>
+					<Badge variant='warning'>Pending</Badge>
+					<Badge variant='error'>Failed</Badge>
+					<Badge variant='info'>Info</Badge>
 				</div>
 			</section>
 		</div>
